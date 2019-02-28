@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="welcome-card">
+      <ion-img src="/assets/shapes.svg"></ion-img>
+      <ion-card-header>
+        <ion-card-subtitle>welcome</ion-card-subtitle>
+        <ion-card-title>Welcome to licapp</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquam vero ut repudiandae molestias animi.</p>
+      </ion-card-content>
+    </ion-card>
+    <ion-list lines="none">
+      <ion-list-header>
+        <ion-label>Main links</ion-label>
+      </ion-list-header>
+      <ion-item [routerLink]="['/profile']">
+        <ion-icon slot="start" color="medium" name="book"></ion-icon>
+        <ion-label>View next screen</ion-label>
+      </ion-item>
+      <ion-item [routerLink]="['/sign-out']">
+        <ion-icon slot="start" color="medium" name="build"></ion-icon>
+        <ion-label>LogOut</ion-label>
+      </ion-item>
+    </ion-list>
+</ion-content>
