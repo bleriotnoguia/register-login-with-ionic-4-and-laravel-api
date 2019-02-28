@@ -1,4 +1,0 @@
-cut in app routing file.....
-,
-  { path: 'sign-up', loadChildren: './sign-up/sign-up.module#SignUpPageModule' },
-  { path: 'sign-in', loadChildren: './sign-in/sign-in.module#SignInPageModule' }
